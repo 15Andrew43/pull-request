@@ -1,0 +1,12 @@
+Смержили pull request
+
+
+Сделав очередной git pull, понимаем, что нерадивый коллега слил ветки (feature в master).
+
+Откатим master на один коммит назад. Теперь можно опять сделать pull request.
+
+Команды (находимся изначально в master):
+git reset --hard HEAD^
+git push origin +main:main
+
+Теперь можем делать pull request!
